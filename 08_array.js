@@ -50,3 +50,39 @@ console.log(myarray4.slice(1, 3)); // Get a slice of the array from index 1 to 3
 
 console.log(myarray4.splice(1, 3)); // Remove elements from index 1 to 3 (exclusive) and return them
 
+marvel_heros = [`Iron Man`, `Captain America`, `Thor`, `Hulk`, `Black Widow`];
+
+dc_heros = [`Superman`, `Batman`, `Wonder Woman`, `Flash`, `Aquaman`];
+
+// Concatenate two arrays
+marvel_heros.push(dc_heros);
+
+console.log(marvel_heros); // Print the concatenated array
+
+let herose = marvel_heros.concat(dc_heros); // Another way to concatenate arrays
+console.log(herose); // Print the concatenated array using concat
+
+marvel_heros.push(...dc_heros); // Spread operator to add elements of dc_heros to marvel_heros
+console.log(marvel_heros); // Print the array after using spread operator
+
+//spread operator to copy an array
+let allherose = [...marvel_heros, ...dc_heros];
+console.log(allherose); // Print the array after copying with spread operator
+
+
+const another_array = [1,2,3,4,5,[6,7[97]]];
+
+const real_another_array = another_array.flat(Infinity); // Flatten the array to a depth of 2
+console.log(real_another_array); // Print the flattened array
+
+console.log(Array.isArray("prathamesh"));
+console.log(Array.from("prathamesh"));
+
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
+
+console.log(Array.of(score1, score2, score3)); // Create an array from the scores
+
+
+
