@@ -76,7 +76,7 @@ const real_another_array = another_array.flat(Infinity); // Flatten the array to
 console.log(real_another_array); // Print the flattened array
 
 console.log(Array.isArray("prathamesh"));
-console.log(Array.from("prathamesh"));
+console.log(Array.from("prathamesh"));//  
 
 let score1 = 100;
 let score2 = 200;
