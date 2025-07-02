@@ -50,3 +50,6 @@ function getarray(arr) {
 getarray(mynewarray); // Calls the function getarray with an array argument
 
 
+
+
+
