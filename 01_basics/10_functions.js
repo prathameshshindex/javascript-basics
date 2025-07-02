@@ -25,6 +25,28 @@ function addTwonumbers(number1,number2) {
     return number1 + number2;
 }
 
+function calculation(...num2) {
+    return (num2)
+    
+}
 
+console.log(calculation(10,20,30,40,50)); // Calls the function calculation with multiple arguments and logs the result
+
+function object(anyobj) {
+    console.log(`The name is ${anyobj.name} and the age is ${anyobj.age}`);
+    
+    
+}
+
+object({name : "Prathamesh", age: 20}); // Calls the function object with an object argument
+
+mynewarray = [1,2,3,4,5];
+
+function getarray(arr) {
+    console.log( `The first element is ${arr[0]} and the last element is ${arr[arr.length - 1]}`);
+    
+    
+}
+getarray(mynewarray); // Calls the function getarray with an array argument
 
 
