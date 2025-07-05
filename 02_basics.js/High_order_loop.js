@@ -76,3 +76,36 @@ mycoding.forEach((item) =>{
     
 })
 
+//**************************FILTER **************** */
+// The filter() method creates a new array with all elements that pass the test implemented by the
+
+myarray3 = [1, 2, 3, 4, 5];
+const value = myarray3.filter((item) => {
+    return item > 2;
+})
+console.log(value);
+
+myarray3.forEach((num)=>{
+    if(num>2){
+        console.log(num);
+    }
+})
+
+
+///**************************MAP **************** */
+
+let mynumber = [1, 2, 3, 4, 5];
+
+//const newnum = mynumber.map((num)=> num+10)
+//console.log(newnum);
+let n = mynumber.forEach((num)=>{
+   if (num >0) {
+    console.log(num + 10);
+   }
+} )
+console.log(n);
+
+//
+
+
+
