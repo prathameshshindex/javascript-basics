@@ -41,7 +41,7 @@ for (const [key, value] of Object.entries(newobject)) {
 //****FOR IN ****** */
 
 for (const key in newobject) {
-    console.log(`${key} : ${newobject[key]}`);
+    //console.log(`${key} : ${newobject[key]}`);
    
 }
 
@@ -49,11 +49,11 @@ for (const key in newobject) {
 
 const myarray2 = [1, 2, 3, 4, 5];
 myarray2.forEach(function (items) {
-    console.log(items);
+    //console.log(items);
 })
 
 function printme(item){
-    console.log(item);
+    //console.log(item);
 }
 
 myarray2.forEach(printme);
@@ -72,7 +72,7 @@ mycoding = [
 
 
 mycoding.forEach((item) =>{
-    console.log(`${item.age}`);
+    //console.log(`${item.age}`);
     
 })
 
@@ -83,11 +83,11 @@ myarray3 = [1, 2, 3, 4, 5];
 const value = myarray3.filter((item) => {
     return item > 2;
 })
-console.log(value);
+//console.log(value);
 
 myarray3.forEach((num)=>{
     if(num>2){
-        console.log(num);
+        //console.log(num);
     }
 })
 
@@ -100,12 +100,21 @@ let mynumber = [1, 2, 3, 4, 5];
 //console.log(newnum);
 let n = mynumber.forEach((num)=>{
    if (num >0) {
-    console.log(num + 10);
+    //console.log(num + 10);
    }
 } )
-console.log(n);
+//console.log(n);
 
-//
+//******chaning**** */
+
+const newnum = [1 , 2, 3, 4, 5]
+
+const newnum2 = newnum
+                      .map((num)=> num *10)
+                      .map((num)=> num +1)
+                      .filter((num)=> num > 20);
+//console.log(newnum2);
+
 
 
 
