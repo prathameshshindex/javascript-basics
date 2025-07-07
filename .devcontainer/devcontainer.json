@@ -2,7 +2,8 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
 {
 	"name": "Node.js",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	// Or use a Dockerfile or Docker Compose file. More info:
+	// https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
@@ -25,6 +26,7 @@
 			"settings": {
 				"editor.fontSize": 32,
 				"terminal.integrated.fontSize": 24,
+				// "terminal.integrated.fontSize": 24,
 				"editor.wordWrap": "on"
 			}
 
